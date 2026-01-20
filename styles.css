@@ -159,6 +159,35 @@ a {
   margin: 22px 0 10px;
 }
 
+.app-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  margin-bottom: 12px;
+  box-shadow: var(--shadow);
+}
+
+.app-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.chip-title {
+  font-weight: 700;
+}
+
+.chip-sub {
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
