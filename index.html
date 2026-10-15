@@ -2,106 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oceanic Seed | Android Apps</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07131b">
+  <meta name="description" content="Oceanic Seed makes thoughtful Android apps for calmer nights, deeper rest, and better focus.">
+  <title>Oceanic Seed — A little more calm in your day</title>
+  <link rel="icon" type="image/png" href="assets/cat_logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="assets/cat_logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="home.css">
 </head>
 <body>
-  <div class="page">
-    <header class="nav">
-      <div class="brand">
-        <div class="brand-mark brand-mark-image">
-          <img src="assets/cat_logo.png" alt="Oceanic Seed logo" class="brand-logo-img">
-        </div>
-        <div>
-          <div class="brand-name">Oceanic Seed</div>
-          <div class="brand-sub">Android Apps</div>
-        </div>
-      </div>
-      <nav class="nav-links">
-        <a href="mailto:oceanicandroid@gmail.com">Contact</a>
-      </nav>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Oceanic Seed home">
+        <img src="assets/cat_logo.png" alt="" width="44" height="44">
+        <span class="brand-copy"><strong>Oceanic Seed</strong><span>Thoughtful Android apps</span></span>
+      </a>
+      <a class="header-link" href="mailto:oceanicandroid@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
     </header>
 
     <main>
-      <section class="hero">
-        <h1>Simple, focused Android apps</h1>
-        <p class="lede">Privacy-first tools designed to help you relax, focus, and live better.</p>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A quieter kind of technology</p>
+          <h1 id="hero-title">Make room for a little <span>more calm.</span></h1>
+          <p class="hero-description">Simple Android apps, thoughtfully made to help you slow down, settle in, and focus on what matters.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://play.google.com/store/apps/details?id=oceanicseed.com.noise" target="_blank" rel="noopener noreferrer">Explore Relax Noise <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#apps">Meet the app <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span class="note-icon" aria-hidden="true">✦</span> Made for your everyday moments of rest</div>
+        </div>
+        <div class="hero-art" aria-label="Abstract flowing ocean waves">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="moon"></div>
+          <svg class="wave-art" viewBox="0 0 620 360" role="img" aria-label="Soft flowing lines inspired by ocean waves">
+            <defs><linearGradient id="wave" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#8de8d0"/><stop offset=".52" stop-color="#55b7ba"/><stop offset="1" stop-color="#6985d9"/></linearGradient></defs>
+            <path d="M-30 214C87 138 166 276 275 207S467 126 650 188"/><path d="M-32 238C83 166 167 296 279 229s198-74 374-18"/><path d="M-30 264C83 193 168 319 283 253s198-60 370-14"/><path d="M-20 290C90 221 173 342 290 278s194-46 355-8"/><path d="M5 316c98-66 180 50 297-11s184-32 324 2"/><path d="M56 341c89-51 164 47 273-4s178-28 271-6"/>
+          </svg>
+          <div class="art-label"><span class="sound-dot"></span> A moment to unwind</div>
+          <div class="art-sparkle sparkle-one">✦</div><div class="art-sparkle sparkle-two">✧</div>
+        </div>
       </section>
 
-      <section class="apps">
-        <div class="app-card" onclick="window.location.href='apps/relax-noise.html'">
-          <div class="app-icon-wrapper">
-            <img src="assets/relax-icon.png" alt="Relax Noise" class="app-icon-large">
+      <section class="app-section" id="apps" aria-labelledby="apps-title">
+        <div class="section-heading"><div><p class="eyebrow">A small collection</p><h2 id="apps-title">Meet Relax Noise</h2></div><p>One simple app for creating a more restful atmosphere, wherever you are.</p></div>
+        <article class="app-card">
+          <div class="app-icon-wrap"><img src="assets/relax-icon.png" alt="Relax Noise app icon" width="104" height="104"></div>
+          <div class="app-main"><div class="app-title-row"><div><h3>Relax Noise</h3><p class="app-tagline">Find your sound. Find your calm.</p></div><span class="category">MUSIC &amp; AUDIO</span></div>
+            <p class="app-description">Settle into high-quality sounds inspired by rain, wind, and the ocean. Shape your routine with a sleep timer, dark mode, and offline listening.</p>
+            <div class="feature-list"><span><i aria-hidden="true">◌</i> Natural soundscapes</span><span><i aria-hidden="true">◷</i> Sleep timer</span><span><i aria-hidden="true">⌁</i> Works offline</span></div>
           </div>
-          <div class="app-info">
-            <h2>Relax Noise</h2>
-            <p class="app-tagline">Minimalist white noise for deeper rest and better focus</p>
-            <div class="app-badges">
-              <span class="badge">Music & Audio</span>
-              <span class="badge">Free</span>
-            </div>
-            <p class="app-desc">High-quality natural sounds like rain, wind, and ocean. Sleep timer, dark mode, and works offline.</p>
-            <div class="app-actions">
-              <a href="/apps/relax-noise.html" class="btn primary">Learn more</a>
-              <a href="https://play.google.com/store/apps/details?id=oceanicseed.com.noise" target="_blank" rel="noopener noreferrer" class="btn ghost" onclick="event.stopPropagation()">Get on Play Store</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Add more app cards here as you create new apps -->
-        <!-- 
-        <div class="app-card">
-          <div class="app-icon-wrapper">
-            <img src="assets/your-app-icon.png" alt="Your App" class="app-icon-large">
-          </div>
-          <div class="app-info">
-            <h2>Your App Name</h2>
-            <p class="app-tagline">Brief description</p>
-            <div class="app-badges">
-              <span class="badge">Category</span>
-              <span class="badge">Free</span>
-            </div>
-            <p class="app-desc">Detailed description of what your app does.</p>
-            <div class="app-actions">
-              <a href="apps/your-app.html" class="btn primary">Learn more</a>
-              <a href="PLAY_STORE_LINK" target="_blank" rel="noopener noreferrer" class="btn ghost" onclick="event.stopPropagation()">Get on Play Store</a>
-            </div>
-          </div>
-        </div>
-        -->
+          <div class="app-cta"><a class="button button-store" href="https://play.google.com/store/apps/details?id=oceanicseed.com.noise" target="_blank" rel="noopener noreferrer">Get it on Google Play <span aria-hidden="true">↗</span></a><a class="learn-link" href="/apps/relax-noise.html">Learn about the app</a></div>
+        </article>
       </section>
+
+            <section class="screens-section" aria-labelledby="screens-title">
+        <div class="section-heading screens-heading"><div><p class="eyebrow">A look inside</p><h2 id="screens-title">Your own little soundscape</h2></div><p>Choose a favorite sound, fine-tune your mix, and let the atmosphere settle in.</p></div>
+        <div class="screens-grid">
+          <figure class="screen-card"><div class="phone-frame"><img src="assets/relax-noise-rain.jpg" alt="Relax Noise sound selection screen with rain, wind, ocean, frog, birds, and white noise"></div><figcaption><span>01</span><div><strong>Choose a sound</strong><small>Rain, ocean, birds, and more</small></div></figcaption></figure>
+          <figure class="screen-card"><div class="phone-frame"><img src="assets/relax-noise-mix.jpg" alt="Relax Noise mixer screen with individual volume controls and a sleep timer"></div><figcaption><span>02</span><div><strong>Make it yours</strong><small>Balance sounds to your liking</small></div></figcaption></figure>
+          <figure class="screen-card"><div class="phone-frame"><img src="assets/relax-noise-ocean.jpg" alt="Relax Noise playing a rain sound with the compact mixer open"></div><figcaption><span>03</span><div><strong>Settle into the moment</strong><small>Keep the controls close at hand</small></div></figcaption></figure>
+        </div>
+      </section>
+<section class="values" aria-label="What guides our apps"><div class="value"><span class="value-mark">01</span><div><h3>Thoughtfully simple</h3><p>Clear, focused tools that are easy to make part of your day.</p></div></div><div class="value"><span class="value-mark">02</span><div><h3>Privacy-minded</h3><p>Designed with care for your attention and your personal space.</p></div></div><div class="value"><span class="value-mark">03</span><div><h3>Made for real life</h3><p>Useful wherever you need a moment to pause and reset.</p></div></div></section>
     </main>
 
-    <footer class="footer">
-      <div class="footer-content">
-        <div class="brand small">
-          <div class="brand-mark">OS</div>
-          <div>
-            <div class="brand-name">Oceanic Seed</div>
-            <div class="brand-sub">Android Apps</div>
-          </div>
-        </div>
-        <div class="footer-links">
-          <a href="mailto:oceanicandroid@gmail.com">Support</a>
-          <a href="mailto:oceanicseed@gmail.com">Contact</a>
-        </div>
-        <div class="footer-meta">
-          <span>© <span id="year"></span> Oceanic Seed</span>
-        </div>
-      </div>
-    </footer>
+    <footer class="site-footer"><a class="footer-brand" href="/">Oceanic Seed<span>Small apps. More breathing room.</span></a><div class="footer-links"><a href="mailto:oceanicandroid@gmail.com">Support</a><a href="mailto:oceanicseed@gmail.com">Contact</a><a href="/apps/relax-noise.html">Relax Noise</a></div><p class="copyright">© <span id="year"></span> Oceanic Seed</p></footer>
   </div>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
+
 
 
 
