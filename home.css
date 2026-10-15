@@ -8,5 +8,6 @@
 @media(max-width:760px){.screens-section{padding-top:34px}.screens-grid{gap:12px}.phone-frame{padding:5px;border-radius:12px}.phone-frame img{border-radius:8px}.screen-card figcaption{gap:7px;padding:9px 1px}.screen-card figcaption>span{width:21px;height:21px;font-size:9px}.screen-card figcaption strong{font-size:11px}.screen-card figcaption small{font-size:9px}}
 @media(max-width:480px){.screens-grid{grid-template-columns:1fr;gap:16px}.screen-card{display:grid;grid-template-columns:minmax(0,1fr) 1fr;align-items:center;gap:14px}.phone-frame{max-width:175px;margin:auto}.screen-card figcaption{display:block}.screen-card figcaption>span{margin-bottom:9px}.screen-card figcaption strong{font-size:13px}.screen-card figcaption small{font-size:11px;line-height:1.5}}
 
-html,body{overflow-x:clip}
+html,body{overflow-x:hidden}
+
 
